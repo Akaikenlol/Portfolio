@@ -1,18 +1,9 @@
-import Image from "next/image";
+import React from "react";
 
-const Navbar = () => {
+const Bottomnavbar = () => {
 	return (
 		<header className="w-full">
-			<div className="flex justify-between items-center max-w-7xl mx-auto py-12 px-2 ">
-				<div>
-					<Image
-						src="/assets/logo.png"
-						alt="logo"
-						width={50}
-						height={50}
-						className="invert"
-					/>
-				</div>
+			<div className="flexBetween max-w-7xl mx-auto py-12 px-2 ">
 				<div>
 					<nav>
 						<ul className="flex gap-6 items-center text-3xl">
@@ -44,4 +35,4 @@ const Navbar = () => {
 	);
 };
 
-export default Navbar;
+export default Bottomnavbar;

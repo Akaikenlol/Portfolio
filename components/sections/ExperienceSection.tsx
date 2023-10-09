@@ -9,6 +9,7 @@ const ExperienceSection = () => {
 		{ name: "Next JS", experience: "Intermediate" },
 		{ name: "React", experience: "Basic" },
 		{ name: "Tailwind", experience: "Experienced" },
+		{ name: "Typescript", experience: "Intermediate" },
 	];
 
 	const backend = [
