@@ -17,28 +17,44 @@ const HomeSection = () => {
 					<p className="text-5xl">Keith Ken</p>
 					<p className="text-neutral-600 text-3xl">Jr Frontend Developer</p>
 					<div className="flexCenter gap-5">
-						<button className="btn-1 border-black border-2 hover:bg-black hover:text-white ease-in-out duration-300">
+						{/* <button className="btn-1 border-black border-2 hover:bg-black hover:text-white ease-in-out duration-300"> */}
+						<a
+							href="/assets/Aungs_Resume.pdf"
+							download="Aungs_Resume.pdf"
+							className="btn-1 flexCenter border-black border-2 hover:bg-black hover:text-white ease-in-out duration-300"
+						>
 							Download CV
-						</button>
+						</a>
+						{/* </button> */}
 						<button className="btn-1 bg-black text-white hover:bg-white hover:text-black ease-in-out duration-300 hover:border-2 hover:border-black ">
-							Contact
+							<a href="mailto:akaiken5656@gmail.com" target="_blank">
+								Contact
+							</a>
 						</button>
 					</div>
 					<div className="flexCenter gap-5">
-						<Image
-							className="object-contain cursor-pointer"
-							src="/assets/linkedin-icon-1.svg"
-							alt="logo"
-							width={30}
-							height={30}
-						/>
-						<Image
-							className="object-contain cursor-pointer"
-							src="/assets/github-icon-1.svg"
-							alt="logo"
-							width={35}
-							height={35}
-						/>
+						<a
+							href="https://www.linkedin.com/in/aung-myo-thaw-010955223/"
+							target="_blank"
+						>
+							<Image
+								className="object-contain"
+								src="/assets/linkedin-icon-1.svg"
+								alt="logo"
+								width={30}
+								height={30}
+							/>
+						</a>
+
+						<a href="https://github.com/Akaikenlol" target="_blank">
+							<Image
+								className="object-contain "
+								src="/assets/github-icon-1.svg"
+								alt="logo"
+								width={35}
+								height={35}
+							/>
+						</a>
 					</div>
 				</div>
 			</div>

@@ -16,7 +16,6 @@ const ProjectSection = () => {
 							fill
 						/>
 					</div>
-
 					<p className="text-4xl font-bold">Threads</p>
 					<div className="flex gap-5">
 						<button className="btn-1 border-2 border-black  text-black hover:bg-black hover:text-white ease-in-out duration-300 ">

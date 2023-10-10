@@ -8,26 +8,39 @@ const ContactSection = () => {
 		<section className="section flexCenter flex-col" id="contact">
 			<Header label="Get In Touch" title="Contact Me" />
 			<div className="border-2 border-black w-fit h-full rounded-3xl flexCenter px-10 py-10 gap-5">
-				<div className="relative w-[50px] h-[50px] overflow-hidden">
-					<Image
-						src="/assets/email.png"
-						alt="email"
-						className="object-cover"
-						fill
-					/>
+				<div className="flex  items-center gap-5">
+					<div className="relative w-[50px] h-[50px] overflow-hidden">
+						<Image
+							src="/assets/email.png"
+							alt="email"
+							className="object-cover"
+							fill
+						/>
+					</div>
+					<a
+						className="text-xl underLine cursor-pointer"
+						href="mailto:akaiken5656@gmail.com"
+						target="_blank"
+					>
+						akaiken5656@gmail.com
+					</a>
 				</div>
-				<p className="text-xl underLine cursor-pointer">
-					akaiken5656@gmail.com
-				</p>
-				<div className="relative w-[50px] h-[50px] overflow-hidden">
-					<Image
-						src="/assets/linkedin.png"
-						alt="email"
-						className="object-cover"
-						fill
-					/>
+				<div className="flex items-center gap-5">
+					<div className="relative w-[50px] h-[50px] overflow-hidden">
+						<Image
+							src="/assets/phone-call.png"
+							alt="email"
+							className="object-cover"
+							fill
+						/>
+					</div>
+					<a
+						className="text-2xl underLine cursor-pointer"
+						href="tel:+959756526612"
+					>
+						+959756526612
+					</a>
 				</div>
-				<p className="text-2xl underLine cursor-pointer">Linkedin</p>
 			</div>
 			<div className="mt-28">
 				<Bottomnavbar />

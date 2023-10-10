@@ -19,13 +19,14 @@ const ExperienceSection = () => {
 		{ name: "PostgreSQL", experience: "Intermediate" },
 		{ name: "MongoDB", experience: "Intermediate" },
 		{ name: "Git", experience: "Intermediate" },
+		{ name: "Dart", experience: "Basic" },
 	];
 
 	return (
 		<section className="section flexCenter flex-col" id="experience">
 			<Header label="Explore My" title="Experience" />
 			<div className="w-full flex gap-5">
-				<div className="border border-black rounded-3xl flexCenter flex-col h-full w-full px-5 py-10">
+				<div className="border border-black rounded-3xl flexCenter flex-1 flex-col h-full w-full px-5 py-10">
 					<p className="font-bold text-4xl mt-2 text-neutral-500 mb-10">
 						Frontend Development
 					</p>
@@ -48,12 +49,12 @@ const ExperienceSection = () => {
 						))}
 					</div>
 				</div>
-				<div className="border border-black rounded-3xl flexCenter flex-col h-full w-full px-5 py-10">
+				<div className="border border-black rounded-3xl flexCenter flex-1 flex-col h-full  w-full px-5 py-10">
 					<p className="font-bold text-4xl mt-2 text-neutral-500 mb-10">
 						Additional Skills
 					</p>
 
-					<div className="grid grid-cols-2  gap-x-32 gap-10">
+					<div className="grid grid-cols-2 gap-x-32 gap-10">
 						{backend.map((item, i) => (
 							<div className="flex gap-5" key={i}>
 								<Image
