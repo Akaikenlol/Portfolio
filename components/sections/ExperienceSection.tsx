@@ -26,7 +26,7 @@ const ExperienceSection = () => {
 	return (
 		<section className="section flexCenter flex-col" id="experience">
 			<Header label="Explore My" title="Experience" />
-			<div className="w-full flex gap-5">
+			<div className="w-full flex gap-10">
 				<div className="border border-black rounded-3xl flexCenter flex-1 flex-col h-full w-full px-5 py-10">
 					<p className="font-bold text-4xl mt-2 text-neutral-500 mb-10">
 						Frontend Development
