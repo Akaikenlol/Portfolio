@@ -5,7 +5,7 @@ const HomeSection = () => {
 	return (
 		<section className="section flexCenter" id="home">
 			<div className="flexCenter gap-36">
-				<div className="rounded-full relative w-[500px] h-[500px] overflow-hidden">
+				<div className="rounded-full relative w-[400px] h-[400px] overflow-hidden">
 					<Image
 						src="/assets/profile1.jpg"
 						alt="profile"
@@ -18,16 +18,15 @@ const HomeSection = () => {
 					<p className="text-5xl">Keith Ken</p>
 					<p className="text-neutral-600 text-3xl">Jr Frontend Developer</p>
 					<div className="flexCenter gap-5">
-						{/* <button className="btn-1 border-black border-2 hover:bg-black hover:text-white ease-in-out duration-300"> */}
 						<a
 							href="/assets/Aungs_Resume.pdf"
 							download="Aungs_Resume.pdf"
-							className="btn-1 flexCenter border-black border-2 hover:bg-black hover:text-white ease-in-out duration-300"
+							className="btn-1 flexCenter border-black border hover:bg-black hover:text-white ease-in-out duration-300"
 						>
 							Download CV
 						</a>
-						{/* </button> */}
-						<button className="btn-1 bg-black text-white hover:bg-white hover:text-black ease-in-out duration-300 hover:border-2 hover:border-black ">
+
+						<button className="btn-1 bg-black text-white hover:bg-white hover:text-black ease-in-out duration-300 hover:border hover:border-black ">
 							<a href="mailto:akaiken5656@gmail.com" target="_blank">
 								Contact
 							</a>

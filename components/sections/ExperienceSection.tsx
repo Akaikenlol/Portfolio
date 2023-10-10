@@ -28,7 +28,7 @@ const ExperienceSection = () => {
 			<Header label="Explore My" title="Experience" />
 			<div className="w-full flex gap-10">
 				<div className="border border-black rounded-3xl flexCenter flex-1 flex-col h-full w-full px-5 py-10">
-					<p className="font-bold text-4xl mt-2 text-neutral-500 mb-10">
+					<p className="font-bold text-xl mt-2 text-neutral-500 mb-10">
 						Frontend Development
 					</p>
 
@@ -43,15 +43,17 @@ const ExperienceSection = () => {
 									className="w-[30px] h-[30px]"
 								/>
 								<div className="flex flex-col">
-									<p className="font-bold text-xl">{item.name}</p>
-									<p className="text-neutral-500 text-xl">{item.experience}</p>
+									<p className="font-bold text-lg">{item.name}</p>
+									<p className="text-neutral-500 text-base">
+										{item.experience}
+									</p>
 								</div>
 							</div>
 						))}
 					</div>
 				</div>
 				<div className="border border-black rounded-3xl flexCenter flex-1 flex-col h-full  w-full px-5 py-10">
-					<p className="font-bold text-4xl mt-2 text-neutral-500 mb-10">
+					<p className="font-bold text-xl mt-2 text-neutral-500 mb-10">
 						Additional Skills
 					</p>
 
@@ -66,8 +68,10 @@ const ExperienceSection = () => {
 									className="w-[30px] h-[30px]"
 								/>
 								<div className="flex flex-col">
-									<p className="font-bold text-xl">{item.name}</p>
-									<p className="text-neutral-500 text-xl">{item.experience}</p>
+									<p className="font-bold text-lg">{item.name}</p>
+									<p className="text-neutral-500 text-base">
+										{item.experience}
+									</p>
 								</div>
 							</div>
 						))}

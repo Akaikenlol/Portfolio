@@ -9,7 +9,7 @@ const ContactSection = () => {
 	return (
 		<section className="section flexCenter flex-col" id="contact">
 			<Header label="Get In Touch" title="Contact Me" />
-			<div className="border-2 border-black w-fit h-full rounded-3xl flexCenter px-10 py-10 gap-5">
+			<div className="border border-black w-fit h-fit rounded-3xl flexCenter px-10 py-10 gap-5">
 				<div className="flex  items-center gap-5">
 					<div className="relative w-[50px] h-[50px] overflow-hidden">
 						<Image
@@ -20,7 +20,7 @@ const ContactSection = () => {
 						/>
 					</div>
 					<a
-						className="text-xl underLine cursor-pointer"
+						className="text-lg underLine cursor-pointer"
 						href="mailto:akaiken5656@gmail.com"
 						target="_blank"
 					>
@@ -37,7 +37,7 @@ const ContactSection = () => {
 						/>
 					</div>
 					<a
-						className="text-2xl underLine cursor-pointer"
+						className="text-lg underLine cursor-pointer"
 						href="tel:+959756526612"
 					>
 						+959756526612
@@ -46,9 +46,9 @@ const ContactSection = () => {
 			</div>
 			<div className="mt-28">
 				<Bottomnavbar />
-				<div className="flexCenter gap-2 text-xl text-neutral-600">
+				<div className="flexCenter gap-2 text-xs text-neutral-600">
 					<p>Copy Right</p>
-					<div className="relative w-[20px] h-[20px] overflow-hidden">
+					<div className="relative w-[10px] h-[10px] overflow-hidden">
 						<Image
 							src="/assets/copyright.png"
 							alt="copyright"

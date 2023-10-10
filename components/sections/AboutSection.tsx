@@ -4,18 +4,18 @@ import Down from "../shared/down";
 
 const AboutSection = () => {
 	return (
-		<section className="section flex-col py-20 flexCenter " id="about">
+		<section className="section flex-col py-10 flexCenter " id="about">
 			<Header label="Get To Know More" title="About" />
-			<div className="flexCenter gap-20 w-full h-full ">
+			<div className="flexCenter gap-10 w-full h-full ">
 				<Image
 					src="/assets/profile2.jpg"
 					alt="logo2"
-					className="object-cover rounded-3xl w-[450px] h-[450px]"
+					className="object-cover rounded-3xl w-[425px] h-[425px]"
 					width={300}
 					height={300}
 				/>
 				<div className="flexBetween flex-col gap-5">
-					<div className="flex justify-between items-center gap-5 w-full h-[200px]">
+					<div className="flex justify-between items-center gap-5 w-full h-[175px]">
 						<div className="border border-black rounded-3xl flexCenter flex-col h-full w-full">
 							<Image
 								src="/assets/badge.png"
@@ -23,7 +23,7 @@ const AboutSection = () => {
 								width={35}
 								height={35}
 							/>
-							<p className="font-bold text-2xl mt-2">Experience</p>
+							<p className="font-bold text-xl mt-2">Experience</p>
 							<p className="text-neutral-500">2+ years</p>
 							<p className="text-neutral-500">Frontend Development</p>
 						</div>
@@ -34,12 +34,12 @@ const AboutSection = () => {
 								width={35}
 								height={35}
 							/>
-							<p className="font-bold text-2xl mt-2">Education</p>
+							<p className="font-bold text-xl mt-2">Education</p>
 							<p className="text-neutral-500">Diploma In Programming</p>
 							<p className="text-neutral-500">HND In Software Engineering</p>
 						</div>
 					</div>
-					<p className="text-neutral-600 text-xl max-w-[800px] w-full mt-10">
+					<p className="text-neutral-600 text-lg max-w-[800px] w-full mt-7">
 						"I'm a junior web developer known for adding a creative touch to
 						code, elevating digital projects into unique experiences. I approach
 						web development as both a technical craft and an art form, where

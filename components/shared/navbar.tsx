@@ -15,7 +15,7 @@ const Navbar = () => {
 				</div>
 				<div>
 					<nav>
-						<ul className="flex gap-6 items-center text-3xl">
+						<ul className="flex gap-6 items-center text-2xl">
 							<li>
 								<a href="#about" className="underLine">
 									About

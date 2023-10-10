@@ -8,11 +8,15 @@
 	}
 
 	.btn-1 {
-		@apply w-[175px] h-[70px] rounded-full;
+		@apply w-[150px] h-[50px] rounded-full;
+	}
+
+	.btn-2 {
+		@apply w-[125px] h-[45px] rounded-full;
 	}
 
 	.section {
-		@apply max-w-[1220px]  min-h-[100vh]  mx-auto px-2 gap-28 relative;
+		@apply max-w-[1440px]  h-[100vh]  mx-auto px-2 gap-10 relative;
 	}
 
 	.flexBetween {

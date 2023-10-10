@@ -6,7 +6,7 @@ const Bottomnavbar = () => {
 			<div className="flexBetween max-w-7xl mx-auto py-12 px-2 ">
 				<div>
 					<nav>
-						<ul className="flex gap-6 items-center text-3xl">
+						<ul className="flex gap-6 items-center text-2xl">
 							<li>
 								<a href="#about" className="underLine">
 									About
