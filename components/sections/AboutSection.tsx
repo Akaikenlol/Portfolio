@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../shared/header";
+import Down from "../shared/down";
 
 const AboutSection = () => {
 	return (
@@ -50,6 +51,7 @@ const AboutSection = () => {
 					</p>
 				</div>
 			</div>
+			<Down target="#experience" />
 		</section>
 	);
 };

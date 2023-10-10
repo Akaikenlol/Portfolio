@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../shared/header";
 import Image from "next/image";
 import Bottomnavbar from "../shared/bottomnavbar";
+import Down from "../shared/down";
+import Up from "../shared/up";
 
 const ContactSection = () => {
 	return (
@@ -58,6 +60,7 @@ const ContactSection = () => {
 					<p>All Rights Reserved.</p>
 				</div>
 			</div>
+			<Up />
 		</section>
 	);
 };

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Down from "../shared/down";
 
 const HomeSection = () => {
 	return (
@@ -57,6 +58,7 @@ const HomeSection = () => {
 						</a>
 					</div>
 				</div>
+				<Down target="#about" />
 			</div>
 		</section>
 	);

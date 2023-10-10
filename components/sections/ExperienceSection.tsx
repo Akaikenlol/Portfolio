@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../shared/header";
+import Down from "../shared/down";
 
 const ExperienceSection = () => {
 	const language = [
@@ -73,6 +74,7 @@ const ExperienceSection = () => {
 					</div>
 				</div>
 			</div>
+			<Down target="#project" />
 		</section>
 	);
 };

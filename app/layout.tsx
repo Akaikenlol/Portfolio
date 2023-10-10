@@ -1,9 +1,9 @@
 import Navbar from "@/components/shared/navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Onest } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const onset = Onest({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Keith Ken Portfolio",
@@ -16,8 +16,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className="scroll-smooth">
-			<body className={`${inter.className} `}>
+		<html lang="en" className="scroll-smooth scrollbar ">
+			<body className={`${onset.className} `}>
 				<Navbar />
 				{children}
 			</body>
